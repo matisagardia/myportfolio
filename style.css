@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 70vw;
+    margin: 0 auto;
+    background: rgb(45,27,56);
+    background: linear-gradient(90deg, rgba(45,27,56,1) 0%, rgba(27,15,52,1) 50%, rgba(2,5,31,1) 100%);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    font-size: 54px;
+}
+.sections {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.leftText {
+    width: 800px;
+    margin: 0;
+    text-align: center;
+}
+
+.leftText h2 {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.leftText p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgContainer img {
+    width: 200px;
+    height: auto;
+}
+
+button {
+    color: white;
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.border{
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: 5px;
+}
+
+.arrow{
+    margin-top: 100px;
+    width: 80px;
+}
+.gradient {
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+
+
+
+
+.skills {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillsTitle {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.skillCards {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.skillCards img {
+    width: 90px;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.skillCards p {
+    text-align: center;
+    font-size: 24px;
+}
