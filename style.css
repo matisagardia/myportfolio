@@ -1,19 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     margin: 0;
     padding: 0;
     color: white;
     font-family: 'Roboto', sans-serif;
-    width: 70vw;
     margin: 0 auto;
-    background: rgb(45,27,56);
-    background: linear-gradient(90deg, rgba(45,27,56,1) 0%, rgba(27,15,52,1) 50%, rgba(2,5,31,1) 100%);
+    background-image: linear-gradient(to bottom, #12082c, #29243f, #433f52, #5e5c66, #7a7a7a);
 }
 
+.presentation {
+    padding: 0px 200px 60px 200px;
+}
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
+    height: 150px;
 }
 
 a {
@@ -43,6 +49,7 @@ a {
 }
 
 .leftText h2 {
+    margin: 40px 0px 40px 0px;
     font-size: 54px;
     font-weight: 700;
 }
@@ -50,6 +57,7 @@ a {
 .leftText p{
     font-size: 24px;
     font-weight: 300;
+    margin-bottom: 40px;
 }
 
 .mainContent {
@@ -79,10 +87,10 @@ button {
 
 .arrow{
     margin-top: 100px;
-    width: 80px;
+    width: 150px;
 }
 .gradient {
-    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-image-source: linear-gradient(to left, #6334b4, #767785);
 }
 
 
@@ -91,32 +99,83 @@ button {
 
 .skills {
     margin-top: 30px;
+    padding: 20px 0px 50px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(23, 23, 31);
 }
 
 .skillsTitle {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     font-size: 52px;
-    font-weight: 400;
+    font-weight: 500;
+    background: linear-gradient( 68.4deg, rgba(248,182,204,1) 0.5%, rgba(192,198,230,1) 49%, rgba(225,246,240,1) 99.8% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .skillCards {
     display: flex;
-    width: 50vw;
+    width: 60vw;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .skillCards img {
-    width: 90px;
+    width: 120px;
     height: auto;
-    margin-top: 10px;
-    text-align: center;
+    margin-top: 30px;
 }
 
 .skillCards p {
     text-align: center;
     font-size: 24px;
+    font-weight: 300;
+}
+
+
+
+
+.projects {
+    background-color: rgb(59, 59, 59);
+}
+.projects h2  {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 500;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    background: linear-gradient( 68.4deg, rgba(248,182,204,1) 0.5%, rgba(192,198,230,1) 49%, rgba(225,246,240,1) 99.8% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.projectCards {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.projectCards img {
+    width: 120px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.project1, .project2, .project3 {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(59, 59, 59);
+    font-weight: 300;
 }
